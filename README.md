@@ -18,8 +18,16 @@
 
 
 - Шаг 5. Напишите single task playbook и используйте module в нём.
+- 
+
+  <img width="570" height="212" alt="image" src="https://github.com/user-attachments/assets/e6fb2f9b-ba7a-455f-b32f-c50e0a1b52ba" />
+
 
 - Шаг 6. Проверьте через playbook на идемпотентность.
+- 
+
+  <img width="1102" height="299" alt="image" src="https://github.com/user-attachments/assets/9da548cf-ce60-4efc-8e31-843229e0bbb5" />
+
 
 - Шаг 7. Выйдите из виртуального окружения.
 
