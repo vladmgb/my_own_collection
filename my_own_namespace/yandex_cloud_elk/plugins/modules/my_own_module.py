@@ -1,4 +1,4 @@
-#!/mnt/c/Users/Vova/HW6/ansible/venv/bin/python
+#!/usr/bin/python
 
 
 # Copyright: (c) 2018, Terry Jones <terry.jones@example.org>
