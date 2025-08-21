@@ -16,18 +16,13 @@
 
 <img width="908" height="127" alt="image" src="https://github.com/user-attachments/assets/849dde3d-38c8-4eee-98a4-c8d2183fc66d" />
 
-
 - Шаг 5. Напишите single task playbook и используйте module в нём.
-- 
-
+  
   <img width="570" height="212" alt="image" src="https://github.com/user-attachments/assets/e6fb2f9b-ba7a-455f-b32f-c50e0a1b52ba" />
 
-
 - Шаг 6. Проверьте через playbook на идемпотентность.
-- 
-
+  
   <img width="1102" height="299" alt="image" src="https://github.com/user-attachments/assets/9da548cf-ce60-4efc-8e31-843229e0bbb5" />
-
 
 - Шаг 7. Выйдите из виртуального окружения.
 
@@ -35,7 +30,11 @@
 
 - Шаг 9. В эту collection перенесите свой module в соответствующую директорию.
 
+  Перенес в /my_own_collection/my_own_namespace/yandex_cloud_elk/plugins/modules
+
 - Шаг 10. Single task playbook преобразуйте в single task role и перенесите в collection. У role должны быть default всех параметров module.
+
+  <img width="1110" height="90" alt="image" src="https://github.com/user-attachments/assets/344093f7-286a-4145-b27d-86f21dcde24b" />
 
 - Шаг 11. Создайте playbook для использования этой role.
 
