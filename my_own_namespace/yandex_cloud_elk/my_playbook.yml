@@ -1,10 +1,6 @@
 ---
-- name: My playbook
+- name: Test my vodule
   hosts: localhost
   gather_facts: false
-  tasks:
-    - name: Run my own module
-      my_own_module:
-        path: /tmp/test.txt
-        content: "Hello from my own module!"
-
+  roles: 
+    - my_role
