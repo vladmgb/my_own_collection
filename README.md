@@ -38,14 +38,29 @@
 
 - Шаг 11. Создайте playbook для использования этой role.
 
+  [my_playbook](https://github.com/vladmgb/my_own_collection/blob/main/my_own_namespace/yandex_cloud_elk/my_playbook.yml)
+
 - Шаг 12. Заполните всю документацию по collection, выложите в свой репозиторий, поставьте тег 1.0.0 на этот коммит.
 
+  [README.md](https://github.com/vladmgb/my_own_collection/blob/main/my_own_namespace/yandex_cloud_elk/README.md)
+
 - Шаг 13. Создайте .tar.gz этой collection: ansible-galaxy collection build в корневой директории collection.
+
+  <img width="1019" height="104" alt="image" src="https://github.com/user-attachments/assets/c528a4d3-2cbe-4e90-ac06-78dcf0d79059" />
 
 - Шаг 14. Создайте ещё одну директорию любого наименования, перенесите туда single task playbook и архив c collection.
 
 - Шаг 15. Установите collection из локального архива: ansible-galaxy collection install <archivename>.tar.gz.
 
-Шаг 16. Запустите playbook, убедитесь, что он работает.
+  <img width="1016" height="205" alt="image" src="https://github.com/user-attachments/assets/a307fce0-a27a-48d8-b867-a138f8e5ed44" />
 
-Шаг 17. В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16
+- Шаг 16. Запустите playbook, убедитесь, что он работает.
+
+<img width="1108" height="229" alt="image" src="https://github.com/user-attachments/assets/71816e63-6e54-4eed-85c3-30a977ce3fec" />
+
+
+- Шаг 17. В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16
+
+  [Collection](https://github.com/vladmgb/my_own_collection/tree/main/my_own_namespace/yandex_cloud_elk)
+  
+  [архив](https://github.com/vladmgb/my_own_collection/blob/main/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz)
