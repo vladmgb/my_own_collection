@@ -1,0 +1,4 @@
+---
+# defaults file for my_role
+path: './test.txt'
+content: "Hello from my module!"
